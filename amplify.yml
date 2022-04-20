@@ -30,7 +30,7 @@ test:
   phases:
     preTest:
       commands:
-        - npm ci
+        - npm ci --include=dev
         - npm install wait-on
         - npm install pm2
         - npm install mocha mochawesome mochawesome-merge mochawesome-report-generator
