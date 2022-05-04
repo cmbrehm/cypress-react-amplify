@@ -1,6 +1,6 @@
 {
   "auth": {
-    "cypressreact34406f73": {
+    "cypressreact5ae0c966": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
