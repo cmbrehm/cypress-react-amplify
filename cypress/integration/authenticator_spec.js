@@ -16,11 +16,8 @@ describe('Authenticator:', function() {
       cy.get(selectors.usernameInput).type("clay");
       cy.get(selectors.signInPasswordInput).type("clayclay");
       cy.get(selectors.signInButton).contains('Sign in').click();
-
-      //cy.wait(3000);
-
       // Step 3: Make an assertion (Check for sign-out text)
-        cy.get(selectors.signOutButton).contains('Sign out');
+      cy.get(selectors.signOutButton).contains('Sign out');
     });
   });
 
