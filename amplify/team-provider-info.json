@@ -1,19 +1,19 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-cypressreact-dev-122751-authRole",
-      "UnauthRoleArn": "arn:aws:iam::344381902518:role/amplify-cypressreact-dev-122751-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::344381902518:role/amplify-cypressreact-dev-122751-authRole",
+      "AuthRoleName": "amplify-cypressreact-dev-212003-authRole",
+      "UnauthRoleArn": "arn:aws:iam::236361277585:role/amplify-cypressreact-dev-212003-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::236361277585:role/amplify-cypressreact-dev-212003-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-cypressreact-dev-122751-deployment",
-      "UnauthRoleName": "amplify-cypressreact-dev-122751-unauthRole",
-      "StackName": "amplify-cypressreact-dev-122751",
-      "StackId": "arn:aws:cloudformation:us-east-1:344381902518:stack/amplify-cypressreact-dev-122751/a9d08950-bffd-11ec-a30a-0ef06ce9fb1d",
-      "AmplifyAppId": "d13x8zbz1gnnlf"
+      "DeploymentBucketName": "amplify-cypressreact-dev-212003-deployment",
+      "UnauthRoleName": "amplify-cypressreact-dev-212003-unauthRole",
+      "StackName": "amplify-cypressreact-dev-212003",
+      "StackId": "arn:aws:cloudformation:us-east-1:236361277585:stack/amplify-cypressreact-dev-212003/544514a0-cb48-11ec-8d11-0ab669f322c5",
+      "AmplifyAppId": "d3q2ugllog2m6c"
     },
     "categories": {
       "auth": {
-        "cypressreact34406f73": {}
+        "cypressreact5ae0c966": {}
       }
     }
   }
