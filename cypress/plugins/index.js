@@ -16,7 +16,22 @@
  * @type {Cypress.PluginConfig}
  */
 // eslint-disable-next-line no-unused-vars
+
+process.env.AWS_SDK_LOAD_CONFIG='yes'
+//process.env.AWS_PROFILE='????'
+const aws=require('aws-sdk');
+const secrets = new aws.SecretsManager();
+
 module.exports = (on, config) => {
-  // `on` is used to hook into various events Cypress emits
-  // `config` is the resolved Cypress config
+  return new Promise((resolve,reject) => {
+    secrets.getSecretValue({
+        SecretId: "amplify/cypress-react"
+      },(err,data)=>{
+        if (err) reject(err);
+        let pw = JSON.parse(data.SecretString);
+        if(!config.env) config.env={};
+        config.env.CognitoPW=pw.CognitoPW;
+        resolve(config);
+      })
+    })
 }

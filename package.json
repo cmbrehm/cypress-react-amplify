@@ -43,7 +43,9 @@
     ]
   },
   "devDependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.82.0",
     "@cypress/webpack-dev-server": "^1.8.4",
+    "aws-sdk": "^2.1129.0",
     "cypress": "^9.6.0",
     "html-webpack-plugin": "^5.5.0"
   }
