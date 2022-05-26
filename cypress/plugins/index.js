@@ -17,8 +17,8 @@
  */
 // eslint-disable-next-line no-unused-vars
 
+
 process.env.AWS_SDK_LOAD_CONFIG='yes'
-//process.env.AWS_PROFILE='????'
 const aws=require('aws-sdk');
 const secrets = new aws.SecretsManager();
 
